@@ -1,17 +1,29 @@
-# 👷 `worker-template` Hello World
+# 👷 `Cloudflare-Worker` example with OpenCage Data API
 
-A template for kick starting a Cloudflare worker project.
-
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
+[`index.js`](index.js) is the content of the Workers script.
 
 #### Wrangler
 
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
+Using [wrangler](https://github.com/cloudflare/wrangler)
 
+```bash
+$ wrangler preview
 ```
-wrangler generate projectname https://github.com/cloudflare/worker-template
+
+#### Deploy
+
+```bash
+$ wrangler publish
 ```
 
-#### Serverless
+## Resources
 
-To deploy using serverless add a [`serverless.yml`](https://serverless.com/framework/docs/providers/cloudflare/) file.
+- OpenCage Data Geocoder API : https://opencagedata.com/
+
+- Cloudflare Workers : https://workers.cloudflare.com/
+
+## Licensing
+
+Licensed under the MIT License
+
+A copy of the license is available in the repository's [LICENSE](LICENSE) file.
